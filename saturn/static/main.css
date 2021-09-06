@@ -1,0 +1,36 @@
+.text_cell {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Sidenav stuff */
+
+.sidenav {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #bcbcbc;
+    overflow-x: hidden;
+    font-size: 25px;
+    padding: 2rem 0.5rem 0.5rem 1rem;
+}
+
+.sidenav p {
+    display: block;
+    margin-bottom: 0;
+}
+
+.sidenav a {
+    display: block;
+}
+
+.subdirectory {
+    margin-left: 10px;
+}
+
+.main {
+    margin: 2rem 20% 2rem 20%;
+}

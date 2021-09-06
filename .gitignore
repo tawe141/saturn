@@ -1,0 +1,5 @@
+notebooks/*
+.pytest_cache
+ipynb_mtimes.json
+site/*
+.idea
